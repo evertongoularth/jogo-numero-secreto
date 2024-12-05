@@ -20,7 +20,7 @@ function verificarChute(){
     let chute = document.querySelector('input').value;
     if(chute == numeroSecreto){
         let padronizaTentativa = tentativas > 1 ?  'tentativas' : 'tentativa';
-        editarHtml('h1','Parabéns!!');
+        editarHtml('h1','Parabéns!');
         editarHtml('p',`Você acertou o número com ${tentativas} ${padronizaTentativa}!`);
         document.getElementById('reiniciar').removeAttribute('disabled');
     } else {
