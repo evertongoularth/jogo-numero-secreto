@@ -11,7 +11,7 @@ function editarHtml(tag,texto){
 
 function exibirMsgInicial(){
     editarHtml('h1','Jogo do Número Secreto');
-    editarHtml('p',`Escolha um número entre 1 e ${numeroMaximo}`);
+    editarHtml('p',`Escolha um número entre 1 e ${numeroMaximo}.`);
 }
 
 exibirMsgInicial();
